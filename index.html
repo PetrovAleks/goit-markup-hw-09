@@ -14,9 +14,6 @@
 
 <body>
     <header>
-
-
-
         <nav class="nav">
             <div class="nav-user">
                 <div class="container container--flex">
@@ -112,7 +109,14 @@
 
         <section class="hero">
             <h2 class="visually-hidden">Slider</h2>
-            <div class="hero__overlay"><img class="hero__img" src="./img/slide4.png" alt="Идут веселые девушки"
+            <div class="hero__overlay"><img class="hero__img"
+                 srcset=
+                 "
+                 ./img/slide4.png 1600w
+                 ./img/slide4@2x.png 2x,
+                 ./img/slide4@3x.png 3x
+                 " 
+                 src="./img/slide4.png" alt="Идут веселые девушки"
                     width="1648">
                 <div class="wrapper-hero">
                     <p class="hero__content">Dresses <span class="hero__content--color">&#38</span> jeans </p>
@@ -210,7 +214,14 @@
                         </svg>add to
                                     cart</button>
                             </div>
-                            <img class="card-img" src="./img/category-2.png" alt="Blue Tshirt" width="255">
+                            <img class="card-img" 
+                            srcset=
+                            "
+                            ./img/category-2.png 255w,
+                            ./img/category-2@2x.png 510w,
+                            ./img/category-2@3x.png 765w
+                            " 
+                            src="./img/category-2.png" alt="Blue Tshirt" width="255">
                         </div>
                         <a href="#" class=" link-style"><span class="card__name--wrapper">
                                 <span class="card__name">Blue tshirt</span><span class="card__cost">$26</span></span>
